@@ -65,7 +65,7 @@ class Pipeline:
 
         try:
             r = requests.post(
-                url="https://api.openai.com/v1/chat/completions",
+                url="https://api.oaiui.com/v1/chat/completions",
                 json=payload,
                 headers=headers,
                 stream=True,
